@@ -4,8 +4,30 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Rupayan789/SAPBackend.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs" : {
+    "url" : "https://github.com/Rupayan789/SAPBackend/issues"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cassandra-driver": "^4.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.4.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
